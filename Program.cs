@@ -6,4 +6,4 @@ static BigInteger factorial(int _base)
     return factorial(_base - 1) * _base;
 }
 
-System.Console.WriteLine(fact_orial(100));
+Console.WriteLine(factorial(Convert.ToInt32(Console.ReadLine())));
